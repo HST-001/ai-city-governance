@@ -1,19 +1,25 @@
-FROM pytorch/pytorch:1.13.1-cuda11.6-cudnn8-runtime
+FROM node:18-alpine as builder
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY package*.json ./
 
-RUN apt-get update && apt-get install -y libgl1 libglib2.0-0 libsm6 libxext6 libxrender-dev libgomp1 libxcb-xinerama0 libxcb-cursor0 && \
-    rm -rf /var/lib/apt/lists/* && \
-    pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/ && \
-    pip config set global.trusted-host mirrors.aliyun.com && \
-    pip config set global.timeout 600 && \
-    pip config set global.retries 3 && \
-    pip install --user --no-cache-dir -r requirements.txt
+RUN npm config set registry https://registry.npmmirror.com && \
+    npm config set fetch-timeout 600000 && \
+    npm config set fetch-retries 3 && \
+    npm config set fetch-retry-mintimeout 20000 && \
+    npm config set fetch-retry-maxtimeout 120000 && \
+    npm install --prefer-offline --no-audit --no-fund
 
 COPY . .
 
-EXPOSE 8080
+RUN npm run build
 
-CMD ["python", "flask_api.py"]
+FROM nginx:alpine
+
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
