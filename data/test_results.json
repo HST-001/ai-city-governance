@@ -1,0 +1,171 @@
+{
+  "timestamp": "2025-12-30T06:20:01.976Z",
+  "totalTests": 24,
+  "passedTests": 22,
+  "failedTests": 2,
+  "passRate": 91.66666666666666,
+  "testCases": [
+    {
+      "test": "getCityBaseValue-1",
+      "passed": true,
+      "input": "beijing",
+      "expected": "beijing",
+      "result": "beijing"
+    },
+    {
+      "test": "getCityBaseValue-2",
+      "passed": true,
+      "input": "hebei-shijiazhuang",
+      "expected": "shijiazhuang",
+      "result": "shijiazhuang"
+    },
+    {
+      "test": "getCityBaseValue-3",
+      "passed": true,
+      "input": "guangdong-guangzhou",
+      "expected": "guangzhou",
+      "result": "guangzhou"
+    },
+    {
+      "test": "getCityBaseValue-4",
+      "passed": true,
+      "input": "jiangsu-nanjing",
+      "expected": "nanjing",
+      "result": "nanjing"
+    },
+    {
+      "test": "levenshteinDistance-1",
+      "passed": true,
+      "input": "beijing, beijing",
+      "expected": 0,
+      "result": 0
+    },
+    {
+      "test": "levenshteinDistance-2",
+      "passed": true,
+      "input": "shanghai, shangha",
+      "expected": 1,
+      "result": 1
+    },
+    {
+      "test": "levenshteinDistance-3",
+      "passed": false,
+      "input": "guangzhou, guagnzhou",
+      "expected": 1,
+      "result": 2
+    },
+    {
+      "test": "levenshteinDistance-4",
+      "passed": true,
+      "input": "wuhan, wuhai",
+      "expected": 1,
+      "result": 1
+    },
+    {
+      "test": "levenshteinDistance-5",
+      "passed": true,
+      "input": "chengdu, chengd",
+      "expected": 1,
+      "result": 1
+    },
+    {
+      "test": "levenshteinDistance-6",
+      "passed": false,
+      "input": "xian, xianyang",
+      "expected": 3,
+      "result": 4
+    },
+    {
+      "test": "findMatchingCityKey-1",
+      "passed": true,
+      "input": "beijing, beijing",
+      "expected": "beijing",
+      "result": "beijing"
+    },
+    {
+      "test": "findMatchingCityKey-2",
+      "passed": true,
+      "input": "shanghai, shanghai",
+      "expected": "shanghai",
+      "result": "shanghai"
+    },
+    {
+      "test": "findMatchingCityKey-3",
+      "passed": true,
+      "input": "hebei-shijiazhuang, hebei",
+      "expected": "shijiazhuang",
+      "result": "shijiazhuang"
+    },
+    {
+      "test": "findMatchingCityKey-4",
+      "passed": true,
+      "input": "guangdong-guangzhou, guangdong",
+      "expected": "guangzhou",
+      "result": "guangzhou"
+    },
+    {
+      "test": "findMatchingCityKey-5",
+      "passed": true,
+      "input": "北京, beijing",
+      "expected": "beijing",
+      "result": "beijing"
+    },
+    {
+      "test": "findMatchingCityKey-6",
+      "passed": true,
+      "input": "广州市, guangdong",
+      "expected": "guangzhou",
+      "result": "guangzhou"
+    },
+    {
+      "test": "findMatchingCityKey-7",
+      "passed": true,
+      "input": "羊城, guangdong",
+      "expected": "guangzhou",
+      "result": "guangzhou"
+    },
+    {
+      "test": "findMatchingCityKey-8",
+      "passed": true,
+      "input": "蓉城, sichuan",
+      "expected": "chengdu",
+      "result": "chengdu"
+    },
+    {
+      "test": "findMatchingCityKey-9",
+      "passed": true,
+      "input": "beijng, beijing",
+      "expected": "beijing",
+      "result": "beijing"
+    },
+    {
+      "test": "findMatchingCityKey-10",
+      "passed": true,
+      "input": "shangha, shanghai",
+      "expected": "shanghai",
+      "result": "shanghai"
+    },
+    {
+      "test": "findMatchingCityKey-11",
+      "passed": true,
+      "input": "nonexistent-city, test",
+      "expected": null,
+      "result": null
+    },
+    {
+      "test": "completeDistrictsForCity-1",
+      "passed": true,
+      "input": "beijing",
+      "expected": 18,
+      "result": 18
+    },
+    {
+      "test": "completeDistricts-beijing",
+      "passed": true
+    },
+    {
+      "test": "completeDistricts-guangzhou",
+      "passed": true
+    }
+  ]
+}
