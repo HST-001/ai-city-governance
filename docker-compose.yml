@@ -1,0 +1,69 @@
+version: '3.8'
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: ai-city-governance-db
+    environment:
+      POSTGRES_DB: urban_management
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: hst135178
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./ai-models
+      dockerfile: Dockerfile
+    container_name: ai-city-governance-backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./ai-models/runs:/app/runs
+      - ./ai-models/uploads:/app/uploads
+    environment:
+      - FLASK_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=urban_management
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=hst135178
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ai-city-governance-frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./ai-models/uploads:/app/uploads
+    depends_on:
+      - backend
+    networks:
+      - app-network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

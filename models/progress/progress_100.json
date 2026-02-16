@@ -1,0 +1,11 @@
+{
+  "task_id": 100,
+  "status": "completed",
+  "progress": 100,
+  "accuracy": 100.0,
+  "model_path": "C:\\Users\\hy\\Desktop\\AI Coding Learning\\AI+城市治理\\models\\model_100.pth",
+  "error": null,
+  "start_time": "2026-01-08T15:39:25.322471",
+  "end_time": "2026-01-08T15:40:14.345808",
+  "timestamp": "2026-01-08T15:40:14.345808"
+}

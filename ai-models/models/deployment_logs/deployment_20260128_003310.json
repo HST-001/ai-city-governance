@@ -1,0 +1,33 @@
+{
+  "start_time": "2026-01-28T00:32:53.558450",
+  "deployment_steps": [
+    {
+      "step": "备份现有模型",
+      "status": "success",
+      "message": "模型已备份到: models/backup\\backup_20260128_003253",
+      "timestamp": "2026-01-28T00:32:53.576362"
+    },
+    {
+      "step": "安装依赖",
+      "status": "skipped",
+      "message": "ultralytics已安装",
+      "timestamp": "2026-01-28T00:33:09.466739"
+    },
+    {
+      "step": "转换数据格式",
+      "status": "success",
+      "message": "数据转换完成",
+      "timestamp": "2026-01-28T00:33:10.219037"
+    },
+    {
+      "step": "运行测试",
+      "status": "success",
+      "message": "所有测试通过",
+      "timestamp": "2026-01-28T00:33:10.399864"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "status": "success",
+  "end_time": "2026-01-28T00:33:10.401440"
+}

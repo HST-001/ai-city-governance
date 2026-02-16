@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "1"
+    },
+    {
+      "id": 1,
+      "name": "10"
+    },
+    {
+      "id": 2,
+      "name": "2"
+    },
+    {
+      "id": 3,
+      "name": "3"
+    },
+    {
+      "id": 4,
+      "name": "4"
+    },
+    {
+      "id": 5,
+      "name": "5"
+    },
+    {
+      "id": 6,
+      "name": "6"
+    },
+    {
+      "id": 7,
+      "name": "7"
+    },
+    {
+      "id": 8,
+      "name": "8"
+    },
+    {
+      "id": 9,
+      "name": "9"
+    },
+    {
+      "id": 10,
+      "name": "\u4e2d\u7b49"
+    },
+    {
+      "id": 11,
+      "name": "\u4eba\u884c\u9053"
+    },
+    {
+      "id": 12,
+      "name": "\u597d"
+    },
+    {
+      "id": 13,
+      "name": "\u5bbd\u655e"
+    },
+    {
+      "id": 14,
+      "name": "\u5dee"
+    },
+    {
+      "id": 15,
+      "name": "\u6781\u597d"
+    },
+    {
+      "id": 16,
+      "name": "\u6781\u5dee"
+    },
+    {
+      "id": 17,
+      "name": "\u6781\u7a84"
+    },
+    {
+      "id": 18,
+      "name": "\u8fc7\u5bbd"
+    },
+    {
+      "id": 19,
+      "name": "\u8fc7\u7a84"
+    },
+    {
+      "id": 20,
+      "name": "\u9002\u4e2d"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

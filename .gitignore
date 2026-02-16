@@ -1,0 +1,119 @@
+# 依赖目录
+node_modules/
+/.pnp
+.pnp.js
+
+# 测试覆盖率
+/coverage
+
+# 生产构建目录
+build/
+dist/
+
+# 其他文件
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Java相关
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven构建目录
+target/
+
+# Spring Boot
+src/main/resources/static/
+src/main/resources/templates/
+
+# 本地配置文件
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Docker
+Dockerfile*
+.dockerignore
+
+# AI模型数据（大型文件）
+ai-models/data/
+ai-models/models/*.h5
+ai-models/models/*.pth
+ai-models/models/*.onnx
+
+# 本地数据和上传文件
+uploads/
+photo/
+query/
+local_street_data.json
+mca_*.json
+
+# 环境变量文件
+.env
+
+# 预训练模型（不需要上传）
+yolov8n.pt
+
+# 测试和调试文件
+test.txt
+test_*.py
+test_*.js
+test_*.json
+check_*.py
+check_*.js
+diagnose_*.py
+analyze_*.py
+validate_*.js
+fix_*.js
+fix_*.py
+detailed_*.py
+simple_*.py
+get_*.py
+fetch_*.py
+crawl_*.py
+complete_*.py
+count_*.py
+generate_*.py
+view_*.py
+
+# 临时HTML文件
+mca_*.html
+
+# Docker配置文件（不需要上传）
+Docker/
+
+# 部署脚本（不需要上传）
+*.ps1
+*.bat
+
+# 临时报告和总结
+*_summary.md
+*_report.txt
+*_analysis.md
+*_issue.md
+*_plan.md
+
+# 数据更新文件
+street_data_updater.py
+massive_streets_update.py
