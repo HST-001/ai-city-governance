@@ -41,10 +41,10 @@ export const usePermission = () => {
     
     /**
      * 检查用户是否可以训练模型
-     * 只有管理员和开发人员可以训练模型
+     * 只有管理员可以训练模型
      */
     const canTrainModels = (): boolean => {
-      return hasRole(Role.ADMIN) || hasRole(Role.DEVELOPER);
+      return hasRole(Role.ADMIN);
     };
     
     /**
@@ -66,14 +66,14 @@ export const usePermission = () => {
      * 检查用户是否可以管理街道信息
      */
     const canManageStreets = (): boolean => {
-      return hasRole(Role.ADMIN) || hasRole(Role.DEVELOPER);
+      return hasRole(Role.ADMIN);
     };
     
     /**
      * 检查用户是否可以上传图片
      */
     const canUploadPhotos = (): boolean => {
-      return hasRole(Role.ADMIN) || hasRole(Role.DEVELOPER);
+      return hasRole(Role.ADMIN) || hasRole(Role.CLIENT);
     };
     
     /**
@@ -87,7 +87,7 @@ export const usePermission = () => {
      * 检查用户是否可以对图片进行评分
      */
     const canRatePhotos = (): boolean => {
-      return hasRole(Role.ADMIN) || hasRole(Role.DEVELOPER);
+      return hasRole(Role.ADMIN) || hasRole(Role.CLIENT);
     };
     
     /**
@@ -97,10 +97,8 @@ export const usePermission = () => {
       switch (user?.role) {
         case Role.ADMIN:
           return '管理员：拥有系统的所有权限，包括管理用户、训练模型、配置系统等。';
-        case Role.DEVELOPER:
-          return '开发人员：可以训练模型和管理训练数据，但不能修改系统配置。';
         case Role.CLIENT:
-          return '客户端用户：只能查看系统数据和模型结果，不能进行修改操作。';
+          return '客户端用户：可以上传照片、查看评分历史、使用AI评分功能等基础功能。';
         default:
           return '未知权限：请联系系统管理员。';
       }
@@ -164,7 +162,7 @@ export const usePermission = () => {
       filterMenuByPermission,
       // 方便使用的快捷属性
       isAdmin: hasRole(Role.ADMIN),
-      isDeveloper: hasRole(Role.DEVELOPER),
+      isDeveloper: false,
       isClient: hasRole(Role.CLIENT),
       user // 暴露user信息给外部使用
     };

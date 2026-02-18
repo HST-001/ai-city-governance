@@ -15,10 +15,8 @@ const Dashboard: React.FC = () => {
     switch (user.role) {
       case Role.ADMIN:
         return '欢迎使用城市街道管理系统，作为管理员您可以管理用户、配置系统和监督所有功能。';
-      case Role.DEVELOPER:
-        return '欢迎使用城市街道管理系统，作为开发人员您可以访问AI训练系统和维护街道评估功能。';
       case Role.CLIENT:
-        return '欢迎使用城市街道管理系统，您可以查看街道评级信息和地图视图。';
+        return '欢迎使用城市街道管理系统，您可以访问照片管理、AI训练系统和维护街道评估功能。';
       default:
         return '欢迎使用城市街道管理系统。';
     }
@@ -68,7 +66,7 @@ const Dashboard: React.FC = () => {
     // 根据用户角色组合卡片
     let cards = [...commonCards];
     
-    if (user.role === Role.ADMIN || user.role === Role.DEVELOPER) {
+    if (user.role === Role.ADMIN || user.role === Role.CLIENT) {
       cards = [...cards, ...adminDevCards];
     }
     
@@ -134,12 +132,11 @@ const Dashboard: React.FC = () => {
           <Divider />
           <Title level={4}>角色权限说明</Title>
           <Paragraph>
-            当前角色: {user.role === Role.ADMIN ? '管理员' : user.role === Role.DEVELOPER ? '开发人员' : '普通用户'}
+            当前角色: {user.role === Role.ADMIN ? '管理员' : '客户端用户'}
           </Paragraph>
           <Paragraph>
             {user.role === Role.ADMIN && '管理员拥有所有权限，可以管理用户、配置系统参数、监督所有功能模块。'}
-            {user.role === Role.DEVELOPER && '开发人员可以访问AI训练系统、维护街道评估功能，但不能管理用户。'}
-            {user.role === Role.CLIENT && '普通用户可以查看街道评级信息和地图视图，但不能进行管理操作。'}
+            {user.role === Role.CLIENT && '客户端用户可以访问照片管理、AI训练系统和维护街道评估功能。'}
           </Paragraph>
         </div>
       )}

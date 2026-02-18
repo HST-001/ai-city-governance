@@ -424,7 +424,7 @@ export const api = {
           success: true,
           data: {
             rating: result.rating,
-            dimensionScores: result.dimensionScores
+            dimensionScores: result.aiScoreDetails
           }
         };
       } else {

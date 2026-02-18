@@ -1,7 +1,6 @@
 // 定义角色枚举
 export enum Role {
   ADMIN = 'ADMIN',
-  DEVELOPER = 'DEVELOPER',
   CLIENT = 'CLIENT',
 }
 
@@ -55,7 +54,7 @@ export const rolePermissions = {
     Permission.SUBMIT_EVALUATIONS,
   ],
   
-  [Role.DEVELOPER]: [
+  [Role.CLIENT]: [
     Permission.AUTHENTICATED,
     Permission.ACCESS_PROFILE,
     Permission.ACCESS_DASHBOARD,
@@ -63,13 +62,6 @@ export const rolePermissions = {
     Permission.COMPARE_RATINGS,
     Permission.MANAGE_ALL_PHOTOS,
     Permission.UPLOAD_PHOTOS,
-    Permission.TRAIN_MODELS,
-    Permission.CONFIGURE_MODELS,
-  ],
-  
-  [Role.CLIENT]: [
-    Permission.AUTHENTICATED,
-    Permission.ACCESS_PROFILE,
     Permission.ACCESS_MAP,
     Permission.SUBMIT_EVALUATIONS,
   ],

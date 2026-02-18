@@ -71,7 +71,7 @@ const ModelTraining: React.FC = () => {
   const [uploadProgress, setUploadProgress] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const canTrainModels = user?.role === Role.ADMIN || user?.role === Role.DEVELOPER;
+  const canTrainModels = user?.role === Role.ADMIN || user?.role === Role.CLIENT;
   const canConfigureModels = user?.role === Role.ADMIN;
   const isClientUser = user?.role === Role.CLIENT;
 
@@ -660,22 +660,12 @@ const ModelTraining: React.FC = () => {
           style={{ marginBottom: 16 }}
         />
       );
-    } else if (user?.role === Role.DEVELOPER) {
-      return (
-        <Alert
-          message="权限说明"
-          description="作为开发人员，您可以创建和训练模型，但无法修改生产环境配置。"
-          type="warning"
-          showIcon
-          style={{ marginBottom: 16 }}
-        />
-      );
     }
     return null;
   };
   
   return (
-    <ProtectedRoute requiredRoles={[Role.ADMIN, Role.DEVELOPER, Role.CLIENT]}>
+    <ProtectedRoute requiredRoles={[Role.ADMIN, Role.CLIENT]}>
       <div className="model-training-container">
         <h1>AI训练系统</h1>
         

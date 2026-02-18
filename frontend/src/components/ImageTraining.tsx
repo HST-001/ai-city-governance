@@ -69,7 +69,7 @@ const ImageTraining: React.FC<ImageTrainingProps> = ({ onTaskCreated }) => {
   const [availableDatasets, setAvailableDatasets] = useState<any[]>([]);
 
   // 权限控制：检查用户是否有训练模型的权限
-  const canTrainModels = user && (user.role === Role.ADMIN || user.role === Role.DEVELOPER);
+  const canTrainModels = user && (user.role === Role.ADMIN || user.role === Role.CLIENT);
 
   useEffect(() => {
     loadTrainingTasks();

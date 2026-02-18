@@ -162,11 +162,11 @@ const PhotoUpload: React.FC = () => {
     if (!isJpgOrPng) {
       message.error('只支持 JPG 或 PNG 格式的图片!');
     }
-    const isLessThan2M = file.size / 1024 / 1024 < 2;
-    if (!isLessThan2M) {
-      message.error('图片大小必须小于 2MB!');
+    const isLessThan200M = file.size / 1024 / 1024 < 200;
+    if (!isLessThan200M) {
+      message.error('图片大小必须小于 200MB!');
     }
-    console.log('文件验证结果:', { isJpgOrPng, isLessThan2M });
+    console.log('文件验证结果:', { isJpgOrPng, isLessThan200M });
     return false;
   };
 
@@ -294,7 +294,7 @@ const PhotoUpload: React.FC = () => {
                   支持单个或批量上传
                 </p>
                 <p className="ant-upload-hint" style={{ margin: '2px 0', fontSize: '10px' }}>
-                  请上传 JPG 或 PNG 格式的图片，大小不超过 2MB
+                  请上传 JPG 或 PNG 格式的图片，大小不超过 200MB
                 </p>
               </Space>
             </Upload.Dragger>
@@ -416,11 +416,11 @@ const PhotoUpload: React.FC = () => {
 
           <Form.Item
             name="description"
-            label="描述"
+            label="备注信息"
           >
             <TextArea
               rows={4}
-              placeholder="请详细描述您遇到的问题"
+              placeholder="备注信息"
             />
           </Form.Item>
 

@@ -40,36 +40,21 @@ const mockAdminUser: User = {
   enabled: true
 };
 
-// Mock测试用户数据 - 开发人员
-const mockDeveloperUser: User = {
+// Mock测试用户数据 - 客户端用户
+const mockClientUser: User = {
   id: '2',
-  username: 'developer',
-  role: Role.DEVELOPER,
+  username: 'client',
+  role: Role.CLIENT,
   permissions: [
     Permission.AUTHENTICATED,
     Permission.ACCESS_PROFILE,
     Permission.ACCESS_DASHBOARD,
     Permission.MANAGE_ALL_PHOTOS,
     Permission.UPLOAD_PHOTOS,
-    Permission.TRAIN_MODELS, // 开发人员有训练权限
+    Permission.TRAIN_MODELS,
     Permission.CONFIGURE_MODELS,
     Permission.VIEW_RATING_HISTORY,
     Permission.COMPARE_RATINGS,
-  ],
-  email: 'dev@example.com',
-  enabled: true
-};
-
-// Mock测试用户数据 - 普通用户
-const mockClientUser: User = {
-  id: '3',
-  username: 'client',
-  role: Role.CLIENT,
-  permissions: [
-    Permission.AUTHENTICATED,
-    Permission.ACCESS_PROFILE,
-    Permission.ACCESS_MAP,
-    Permission.SUBMIT_EVALUATIONS,
   ],
   email: 'client@example.com',
   enabled: true
@@ -143,12 +128,6 @@ export const useAuth = (): AuthHookReturn => {
         console.log('useAuth: 管理员登录成功');
         setUser(mockAdminUser);
         localStorage.setItem('currentUser', JSON.stringify(mockAdminUser));
-        setIsAuthenticated(true);
-        return true;
-      } else if (username === 'developer' && password === 'dev') {
-        console.log('useAuth: 开发人员登录成功');
-        setUser(mockDeveloperUser);
-        localStorage.setItem('currentUser', JSON.stringify(mockDeveloperUser));
         setIsAuthenticated(true);
         return true;
       } else if (username === 'client' && password === 'client') {

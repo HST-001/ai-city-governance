@@ -1326,7 +1326,7 @@ def update_photo_rating(photo_id):
         return jsonify({
             'success': True,
             'rating': float(photo.rating) if photo.rating else 0,
-            'dimensionScores': photo.ai_score_details
+            'aiScoreDetails': photo.ai_score_details
         }), 200
     except Exception as e:
         if 'db' in locals():

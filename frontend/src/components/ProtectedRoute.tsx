@@ -82,7 +82,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
     const getRoleName = (role: Role) => {
       switch(role) {
         case Role.ADMIN: return '管理员';
-        case Role.DEVELOPER: return '开发人员';
         case Role.CLIENT: return '客户端用户';
         default: return role;
       }
@@ -115,11 +114,6 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
                 {hasRole(Role.CLIENT) && (
                   <Paragraph type="secondary" style={{ marginTop: 16 }}>
                     如果您需要更多权限，请联系系统管理员申请角色提升。
-                  </Paragraph>
-                )}
-                {hasRole(Role.DEVELOPER) && (
-                  <Paragraph type="secondary" style={{ marginTop: 16 }}>
-                    此功能需要管理员权限，如果您认为这是个错误，请联系系统管理员。
                   </Paragraph>
                 )}
               </>

@@ -88,7 +88,7 @@ const Layout: React.FC = () => {
           icon: <PictureOutlined />,
           label: '照片管理',
           path: '/photo-management',
-          requiredRoles: [Role.ADMIN, Role.DEVELOPER]
+          requiredRoles: [Role.ADMIN, Role.CLIENT]
         },
         {
           key: 'map',
@@ -101,7 +101,7 @@ const Layout: React.FC = () => {
           icon: <DatabaseOutlined />,
           label: '模型训练',
           path: '/model-training',
-          requiredRoles: [Role.ADMIN, Role.DEVELOPER]
+          requiredRoles: [Role.ADMIN, Role.CLIENT]
         },
         {
           key: 'model-configuration',

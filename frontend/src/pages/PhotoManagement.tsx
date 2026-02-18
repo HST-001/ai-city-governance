@@ -95,11 +95,18 @@ const PhotoManagement: React.FC = () => {
             trainingModels: [],
             photoType: photo.photoType || 'other',
             typeLabel: typeLabels[photo.photoType] || '其他',
-            aiScoreDetails: photo.dimensionScores || null,
+            aiScoreDetails: photo.aiScoreDetails || null,
           };
         });
         setPhotos(formattedPhotos);
         setFilteredPhotos(formattedPhotos);
+        
+        if (selectedPhoto) {
+          const updatedSelectedPhoto = formattedPhotos.find((p: any) => p.id === selectedPhoto.id);
+          if (updatedSelectedPhoto) {
+            setSelectedPhoto(updatedSelectedPhoto);
+          }
+        }
       }
     } catch (error) {
       console.error('获取照片列表失败:', error);
@@ -110,8 +117,8 @@ const PhotoManagement: React.FC = () => {
   };
 
   // 检查当前用户权限
-  const canDeletePhotos = user?.role === Role.ADMIN || user?.role === Role.DEVELOPER;
-  const canRatePhotos = user?.role === Role.ADMIN || user?.role === Role.DEVELOPER;
+  const canDeletePhotos = user?.role === Role.ADMIN || user?.role === Role.CLIENT;
+  const canRatePhotos = user?.role === Role.ADMIN || user?.role === Role.CLIENT;
 
   // 过滤照片
   const filterPhotos = () => {
@@ -607,20 +614,20 @@ const PhotoManagement: React.FC = () => {
       
       {/* 工具栏 */}
       <Card style={{ marginBottom: 16 }}>
-        <Space wrap size="middle">
+        <Space size="small" style={{ width: '100%', display: 'flex', flexWrap: 'nowrap', alignItems: 'center' }}>
           <Search
             placeholder="搜索照片名称、位置或标签"
             allowClear
             enterButton={<SearchOutlined />}
             size="middle"
-            style={{ width: 300 }}
+            style={{ width: 200, flexShrink: 0 }}
             onSearch={handleSearch}
             onChange={(e) => setSearchText(e.target.value)}
           />
           
           <Select
             placeholder="按类型过滤"
-            style={{ width: 150 }}
+            style={{ width: 120, flexShrink: 0 }}
             allowClear
             onChange={handleTypeChange}
           >
@@ -631,7 +638,7 @@ const PhotoManagement: React.FC = () => {
           
           <Select
             placeholder="按位置过滤"
-            style={{ width: 150 }}
+            style={{ width: 120, flexShrink: 0 }}
             allowClear
             onChange={handleLocationChange}
           >
@@ -640,16 +647,21 @@ const PhotoManagement: React.FC = () => {
             ))}
           </Select>
           
+          <RangePicker 
+            onChange={handleDateRangeChange}
+            style={{ flexShrink: 0 }}
+          />
+          
           <Button 
             type="primary" 
             icon={<SyncOutlined />} 
             onClick={fetchPhotos}
             loading={loading}
+            size="middle"
+            style={{ flexShrink: 0 }}
           >
             刷新列表
           </Button>
-          
-          <RangePicker onChange={handleDateRangeChange} />
         </Space>
       </Card>
       
