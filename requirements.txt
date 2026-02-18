@@ -1,0 +1,33 @@
+# 基本依赖
+torch>=1.13.0
+torchvision>=0.14.0
+numpy<2.0.0
+pandas>=1.4.0
+pillow>=9.0.0
+
+# 模型训练与评估
+scikit-learn>=1.0.2
+matplotlib>=3.5.1
+tqdm>=4.64.0
+
+# API服务
+flask>=2.0.3
+flask-cors>=3.0.10
+gunicorn>=20.1.0
+
+# 数据库
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# 数据增强
+albumentations>=1.1.0
+
+# 图像预处理
+opencv-python>=4.5.5.64
+
+# YOLO模型
+ultralytics>=8.0.0
+
+# 日志
+python-dotenv>=0.20.0
+loguru>=0.6.0

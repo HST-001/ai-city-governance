@@ -1,0 +1,29 @@
+===== 数据恢复流程日志 =====
+开始时间: 2025/12/29 23:37:12
+
+[23:37:13] 开始执行数据恢复和处理流程...
+[23:37:13] 1. 备份当前的数据文件...
+[23:37:13] ✅ 成功复制文件: addressData.ts -> addressData_2025-12-29T15-37-13-038Z.ts.bak
+[23:37:13] 
+2. 从备份文件恢复数据...
+[23:37:13] 执行脚本: 数据恢复脚本
+[23:37:13] 执行命令: node "C:\Users\hy\Desktop\AI Coding Learning\AI+城市治理\frontend\src\data\recover_address_data.js"
+[23:37:13] ✅ 脚本 数据恢复脚本 执行成功
+
+[数据恢复脚本 输出]
+开始恢复地址数据...
+成功读取备份文件: C:\Users\hy\Desktop\AI Coding Learning\AI+城市治理\addressData_backup_1767006725424.ts
+成功提取地址数据数组
+成功生成恢复后的数据文件: C:\Users\hy\Desktop\AI Coding Learning\AI+城市治理\frontend\src\data\recovered_address_data.ts
+地址数据恢复完成！
+
+
+[23:37:13] 
+3. 为所有区县添加children数组...
+[23:37:13] 执行脚本: 添加children数组脚本
+[23:37:13] 执行命令: node "C:\Users\hy\Desktop\AI Coding Learning\AI+城市治理\frontend\src\data\add_children_arrays.js"
+[23:37:13] ❌ 脚本 添加children数组脚本 执行失败，退出码: 1
+[23:37:13] 错误输出: 数据处理失败: 数据解析失败: Unexpected token ']'
+
+[23:37:13] 
+❌ 数据恢复流程中断: 脚本执行失败: 添加children数组脚本

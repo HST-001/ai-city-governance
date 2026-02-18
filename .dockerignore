@@ -1,0 +1,52 @@
+# 排除大模型文件（保留训练好的模型）
+# *.pt
+# *.pth
+# *.onnx
+
+# 排除构建上下文
+# runs/
+
+# 排除数据目录
+data/
+
+# 排除Label Studio导出
+data/下载/
+label_studio_exports/
+
+# 排除临时文件
+*.tmp
+*.log
+*.swp
+*.swo
+
+# 排除IDE文件
+.vscode/
+.idea/
+*.iml
+
+# 排除操作系统文件
+Thumbs.db
+.DS_Store
+
+# 排除测试文件
+test_*
+
+# 排除构建产物
+/build
+/dist
+*.egg-info/
+
+# 排除依赖目录
+env/
+venv/
+python_env/
+
+# 排除缓存目录
+.cache/
+.tensorboard/
+.metrics/
+
+# 排除其他大型目录
+models/
+weights/
+datasets/

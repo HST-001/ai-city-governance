@@ -1,0 +1,270 @@
+/* 主布局样式 */
+.main-layout {
+  min-height: 100vh;
+}
+
+.main-header {
+  background-color: #001529;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 64px;
+  width: 100%;
+}
+
+/* 主内容区域样式 */
+.main-content {
+  padding: 24px;
+  background-color: #f0f2f5;
+  min-height: calc(100vh - 64px);
+  position: relative;
+  margin-left: 240px;
+  margin-top: 64px;
+  transition: margin-left 0.3s;
+}
+
+.content-container {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* 头部样式 */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-toggle-btn {
+  margin-right: 16px;
+}
+
+.system-title {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* 用户头像样式 */
+.user-avatar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.user-name {
+  margin-left: 8px;
+}
+
+/* 侧边栏样式 */
+.main-sider {
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  left: 0;
+  top: 64px;
+  bottom: 0;
+  z-index: 100;
+  overflow: hidden;
+}
+
+/* 侧边栏内容区域 - 完全重写 */
+.sider-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 48px;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+  background: #fff;
+}
+
+/* 强制显示滚动条 - Webkit浏览器 */
+.sider-content::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+.sider-content::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 2px !important;
+}
+
+.sider-content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+  border-radius: 2px !important;
+  border: 1px solid transparent !important;
+  background-clip: content-box !important;
+}
+
+.sider-content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Firefox滚动条样式 */
+.sider-content {
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent !important;
+}
+
+/* 确保内容区域始终有滚动条轨道 */
+.sider-content {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* 菜单容器样式 */
+.menu-container {
+  min-height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 强制菜单内容可滚动 */
+.sider-content > * {
+  min-height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logo-container {
+  display: none;
+}
+
+/* 菜单内容样式 */
+.main-menu {
+  border-right: none;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  min-height: 100% !important;
+}
+
+/* 移除Ant Design Menu组件的默认margin */
+.ant-menu {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 100% !important;
+  overflow: visible !important;
+}
+
+/* 确保菜单项不被截断 */
+.ant-menu-item {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.main-menu .ant-menu-item {
+  transition: all 0.3s;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  z-index: 150;
+  cursor: pointer !important;
+  user-select: none;
+}
+
+.main-menu .ant-menu-item:hover {
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.main-menu .ant-menu-item.ant-menu-item-selected {
+  background-color: #e6f7ff;
+  color: #1890ff;
+  border-right: 3px solid #1890ff;
+}
+
+/* 菜单加载状态 */
+.menu-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+/* 权限错误样式 */
+.permission-error {
+  text-align: center;
+  padding: 40px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 12px;
+  }
+  
+  .content-container {
+    padding: 16px;
+  }
+  
+  .system-title {
+    display: none;
+  }
+}
+
+/* 侧边栏收起时的样式 */
+.ant-layout-sider-collapsed {
+  width: 80px !important;
+  flex: 0 0 80px !important;
+}
+
+.ant-layout-sider-collapsed + .ant-layout-content {
+  margin-left: 80px;
+}
+
+/* 修复侧边栏收起按钮位置和样式 */
+.ant-layout-sider-trigger {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 48px !important;
+  line-height: 48px !important;
+  text-align: center !important;
+  background: #f0f2f5 !important;
+  color: #1890ff !important;
+  cursor: pointer !important;
+  z-index: 200 !important;
+  transition: all 0.3s !important;
+  border-top: 1px solid #e8e8e8 !important;
+}
+
+/* 重置antd默认样式 */
+.ant-layout {
+  background: transparent;
+}
+
+.ant-layout-sider-zero-width-trigger {
+  top: 64px;
+}
+
+/* 确保侧边栏可点击的高优先级样式 */
+.ant-layout-sider {
+  pointer-events: auto !important;
+}
+
+/* 确保菜单覆盖层不阻止点击 */
+.ant-menu-submenu-popup {
+  pointer-events: auto !important;
+}

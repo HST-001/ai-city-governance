@@ -1,0 +1,2411 @@
+{
+  "missingDistricts": [
+    {
+      "province": "北京市",
+      "city": "崇文区",
+      "cityValue": "beijing-chongwen"
+    },
+    {
+      "province": "北京市",
+      "city": "燕山地区",
+      "cityValue": "beijing-yanshan"
+    },
+    {
+      "province": "北京市",
+      "city": "西城区",
+      "cityValue": "beijing-"
+    },
+    {
+      "province": "北京市",
+      "city": "延庆区",
+      "cityValue": "beijing-"
+    },
+    {
+      "province": "天津市",
+      "city": "和平区",
+      "cityValue": "tianjin-heping"
+    },
+    {
+      "province": "天津市",
+      "city": "河西区",
+      "cityValue": "tianjin-hexi"
+    },
+    {
+      "province": "天津市",
+      "city": "河北区",
+      "cityValue": "tianjin-hebe"
+    },
+    {
+      "province": "天津市",
+      "city": "南开区",
+      "cityValue": "tianjin-nankai"
+    },
+    {
+      "province": "天津市",
+      "city": "河东区",
+      "cityValue": "tianjin-hedong"
+    },
+    {
+      "province": "天津市",
+      "city": "红桥区",
+      "cityValue": "tianjin-hongqiao"
+    },
+    {
+      "province": "天津市",
+      "city": "东丽区",
+      "cityValue": "tianjin-dongli"
+    },
+    {
+      "province": "天津市",
+      "city": "西青区",
+      "cityValue": "tianjin-hexi-2"
+    },
+    {
+      "province": "天津市",
+      "city": "津南区",
+      "cityValue": "tianjin-nanhe"
+    },
+    {
+      "province": "天津市",
+      "city": "北辰区",
+      "cityValue": "tianjin-beichen"
+    },
+    {
+      "province": "天津市",
+      "city": "武清区",
+      "cityValue": "tianjin-wuqing"
+    },
+    {
+      "province": "天津市",
+      "city": "宝坻区",
+      "cityValue": "tianjin-宝坻区"
+    },
+    {
+      "province": "天津市",
+      "city": "宁河区",
+      "cityValue": "tianjin-宁河区"
+    },
+    {
+      "province": "天津市",
+      "city": "静海区",
+      "cityValue": "tianjin-静海区"
+    },
+    {
+      "province": "天津市",
+      "city": "蓟州区",
+      "cityValue": "tianjin-蓟州区"
+    },
+    {
+      "province": "天津市",
+      "city": "滨海新区",
+      "cityValue": "tianjin-"
+    },
+    {
+      "province": "上海市",
+      "city": "闸北区",
+      "cityValue": "shanghai-zhabei"
+    },
+    {
+      "province": "上海市",
+      "city": "卢湾区",
+      "cityValue": "shanghai-luwan"
+    },
+    {
+      "province": "上海市",
+      "city": "虹口区",
+      "cityValue": "shanghai-"
+    },
+    {
+      "province": "上海市",
+      "city": "杨浦区",
+      "cityValue": "shanghai-"
+    },
+    {
+      "province": "上海市",
+      "city": "宝山区",
+      "cityValue": "shanghai-"
+    },
+    {
+      "province": "上海市",
+      "city": "奉贤区",
+      "cityValue": "shanghai-"
+    },
+    {
+      "province": "上海市",
+      "city": "崇明区",
+      "cityValue": "shanghai-"
+    },
+    {
+      "province": "重庆市",
+      "city": "渝中区",
+      "cityValue": "chongqing-yuzhong"
+    },
+    {
+      "province": "重庆市",
+      "city": "江北区",
+      "cityValue": "chongqing-jiangbei"
+    },
+    {
+      "province": "重庆市",
+      "city": "南岸区",
+      "cityValue": "chongqing-nanan"
+    },
+    {
+      "province": "重庆市",
+      "city": "沙坪坝区",
+      "cityValue": "chongqing-shapingba"
+    },
+    {
+      "province": "重庆市",
+      "city": "渝北区",
+      "cityValue": "chongqing-yubei"
+    },
+    {
+      "province": "重庆市",
+      "city": "巴南区",
+      "cityValue": "chongqing-banan"
+    },
+    {
+      "province": "重庆市",
+      "city": "九龙坡区",
+      "cityValue": "chongqing-jiulongpo"
+    },
+    {
+      "province": "重庆市",
+      "city": "万盛经开区",
+      "cityValue": "chongqing-万盛经开区"
+    },
+    {
+      "province": "重庆市",
+      "city": "大渡口区",
+      "cityValue": "chongqing-dadukou"
+    },
+    {
+      "province": "重庆市",
+      "city": "涪陵区",
+      "cityValue": "chongqing-fuling"
+    },
+    {
+      "province": "重庆市",
+      "city": "江津区",
+      "cityValue": "chongqing-jiangjin"
+    },
+    {
+      "province": "重庆市",
+      "city": "綦江区",
+      "cityValue": "chongqing-qijiang"
+    },
+    {
+      "province": "重庆市",
+      "city": "潼南区",
+      "cityValue": "chongqing-tongnan"
+    },
+    {
+      "province": "重庆市",
+      "city": "铜梁区",
+      "cityValue": "chongqing-tongliang"
+    },
+    {
+      "province": "重庆市",
+      "city": "永川区",
+      "cityValue": "chongqing-yongchuan"
+    },
+    {
+      "province": "重庆市",
+      "city": "荣昌区",
+      "cityValue": "chongqing-rongchang"
+    },
+    {
+      "province": "重庆市",
+      "city": "合川区",
+      "cityValue": "chongqing-hechuan"
+    },
+    {
+      "province": "重庆市",
+      "city": "黔江区",
+      "cityValue": "chongqing-ningjiang"
+    },
+    {
+      "province": "重庆市",
+      "city": "南川区",
+      "cityValue": "chongqing-nanchuan"
+    },
+    {
+      "province": "重庆市",
+      "city": "北碚区",
+      "cityValue": "chongqing-beibei"
+    },
+    {
+      "province": "重庆市",
+      "city": "长寿区",
+      "cityValue": "chongqing-长寿区"
+    },
+    {
+      "province": "重庆市",
+      "city": "垫江县",
+      "cityValue": "chongqing-dianjiang"
+    },
+    {
+      "province": "重庆市",
+      "city": "武隆区",
+      "cityValue": "chongqing-wulong"
+    },
+    {
+      "province": "重庆市",
+      "city": "奉节县",
+      "cityValue": "chongqing-fengjie"
+    },
+    {
+      "province": "重庆市",
+      "city": "开州区",
+      "cityValue": "chongqing-kaizhou"
+    },
+    {
+      "province": "重庆市",
+      "city": "城口县",
+      "cityValue": "chongqing-城口县"
+    },
+    {
+      "province": "重庆市",
+      "city": "云阳县",
+      "cityValue": "chongqing-云阳县"
+    },
+    {
+      "province": "重庆市",
+      "city": "忠县",
+      "cityValue": "chongqing-忠县"
+    },
+    {
+      "province": "重庆市",
+      "city": "巫溪县",
+      "cityValue": "chongqing-巫溪县"
+    },
+    {
+      "province": "重庆市",
+      "city": "巫山县",
+      "cityValue": "chongqing-巫山县"
+    },
+    {
+      "province": "重庆市",
+      "city": "石柱土家族自治县",
+      "cityValue": "chongqing-石柱县"
+    },
+    {
+      "province": "重庆市",
+      "city": "秀山土家族苗族自治县",
+      "cityValue": "chongqing-秀山县"
+    },
+    {
+      "province": "重庆市",
+      "city": "酉阳土家族苗族自治县",
+      "cityValue": "chongqing-酉阳县"
+    },
+    {
+      "province": "重庆市",
+      "city": "彭水苗族土家族自治县",
+      "cityValue": "chongqing-彭水县"
+    },
+    {
+      "province": "重庆市",
+      "city": "万州区",
+      "cityValue": "chongqing-"
+    },
+    {
+      "province": "重庆市",
+      "city": "大足区",
+      "cityValue": "chongqing-"
+    },
+    {
+      "province": "重庆市",
+      "city": "璧山区",
+      "cityValue": "chongqing-"
+    },
+    {
+      "province": "重庆市",
+      "city": "梁平区",
+      "cityValue": "chongqing-"
+    },
+    {
+      "province": "重庆市",
+      "city": "丰都县",
+      "cityValue": "chongqing-"
+    },
+    {
+      "province": "广东省",
+      "city": "珠海市",
+      "cityValue": "guangdong-zhuhai"
+    },
+    {
+      "province": "广东省",
+      "city": "汕头市",
+      "cityValue": "guangdong-shantou"
+    },
+    {
+      "province": "广东省",
+      "city": "江门市",
+      "cityValue": "guangdong-jiangmen"
+    },
+    {
+      "province": "广东省",
+      "city": "湛江市",
+      "cityValue": "guangdong-zhanjiang"
+    },
+    {
+      "province": "广东省",
+      "city": "茂名市",
+      "cityValue": "guangdong-maoming"
+    },
+    {
+      "province": "广东省",
+      "city": "肇庆市",
+      "cityValue": "guangdong- Zhaoqing"
+    },
+    {
+      "province": "广东省",
+      "city": "惠州市",
+      "cityValue": "guangdong-huizhou"
+    },
+    {
+      "province": "广东省",
+      "city": "韶关市",
+      "cityValue": "guangdong-shaoguan"
+    },
+    {
+      "province": "广东省",
+      "city": "梅州市",
+      "cityValue": "guangdong-meizhou"
+    },
+    {
+      "province": "广东省",
+      "city": "汕尾市",
+      "cityValue": "guangdong-shanwei"
+    },
+    {
+      "province": "广东省",
+      "city": "河源市",
+      "cityValue": "guangdong-heyuan"
+    },
+    {
+      "province": "广东省",
+      "city": "阳江市",
+      "cityValue": "guangdong-yingde"
+    },
+    {
+      "province": "广东省",
+      "city": "清远市",
+      "cityValue": "guangdong-qingyuan"
+    },
+    {
+      "province": "广东省",
+      "city": "中山市",
+      "cityValue": "guangdong-zhongshan"
+    },
+    {
+      "province": "广东省",
+      "city": "潮州市",
+      "cityValue": "guangdong-chaozhou"
+    },
+    {
+      "province": "广东省",
+      "city": "揭阳市",
+      "cityValue": "guangdong- Jieyang"
+    },
+    {
+      "province": "广东省",
+      "city": "云浮市",
+      "cityValue": "guangdong-yunfu"
+    },
+    {
+      "province": "江苏省",
+      "city": "徐州市",
+      "cityValue": "jiangsu-xuzhou"
+    },
+    {
+      "province": "江苏省",
+      "city": "常州市",
+      "cityValue": "jiangsu-changzhou"
+    },
+    {
+      "province": "江苏省",
+      "city": "南通市",
+      "cityValue": "jiangsu-nantong"
+    },
+    {
+      "province": "江苏省",
+      "city": "连云港市",
+      "cityValue": "jiangsu-lianyungang"
+    },
+    {
+      "province": "江苏省",
+      "city": "淮安市",
+      "cityValue": "jiangsu-huaian"
+    },
+    {
+      "province": "江苏省",
+      "city": "盐城市",
+      "cityValue": "jiangsu-yancheng"
+    },
+    {
+      "province": "江苏省",
+      "city": "扬州市",
+      "cityValue": "jiangsu-yanzhou"
+    },
+    {
+      "province": "江苏省",
+      "city": "镇江市",
+      "cityValue": "jiangsu-zaozhuang"
+    },
+    {
+      "province": "江苏省",
+      "city": "泰州市",
+      "cityValue": "jiangsu-taizhou"
+    },
+    {
+      "province": "江苏省",
+      "city": "宿迁市",
+      "cityValue": "jiangsu-suqian"
+    },
+    {
+      "province": "浙江省",
+      "city": "温州市",
+      "cityValue": "zhejiang-wenzhou"
+    },
+    {
+      "province": "浙江省",
+      "city": "嘉兴市",
+      "cityValue": "zhejiang-jiaxing"
+    },
+    {
+      "province": "浙江省",
+      "city": "湖州市",
+      "cityValue": "zhejiang-huzhou"
+    },
+    {
+      "province": "浙江省",
+      "city": "绍兴市",
+      "cityValue": "zhejiang-shaoxing"
+    },
+    {
+      "province": "浙江省",
+      "city": "衢州市",
+      "cityValue": "zhejiang-quzhou"
+    },
+    {
+      "province": "浙江省",
+      "city": "舟山市",
+      "cityValue": "zhejiang-zhoushan"
+    },
+    {
+      "province": "浙江省",
+      "city": "台州市",
+      "cityValue": "zhejiang-taizhou"
+    },
+    {
+      "province": "浙江省",
+      "city": "丽水市",
+      "cityValue": "zhejiang-lishui"
+    },
+    {
+      "province": "浙江省",
+      "city": "金华市",
+      "cityValue": "zhejiang-"
+    },
+    {
+      "province": "安徽省",
+      "city": "芜湖市",
+      "cityValue": "anhui-wuhu"
+    },
+    {
+      "province": "安徽省",
+      "city": "蚌埠市",
+      "cityValue": "anhui-bengbu"
+    },
+    {
+      "province": "安徽省",
+      "city": "淮南市",
+      "cityValue": "anhui-huainan"
+    },
+    {
+      "province": "安徽省",
+      "city": "马鞍山市",
+      "cityValue": "anhui-maanshan"
+    },
+    {
+      "province": "安徽省",
+      "city": "淮北市",
+      "cityValue": "anhui-huaibei"
+    },
+    {
+      "province": "安徽省",
+      "city": "铜陵市",
+      "cityValue": "anhui-tongling"
+    },
+    {
+      "province": "安徽省",
+      "city": "安庆市",
+      "cityValue": "anhui-anqing"
+    },
+    {
+      "province": "安徽省",
+      "city": "滁州市",
+      "cityValue": "anhui-chuzhou"
+    },
+    {
+      "province": "安徽省",
+      "city": "阜阳市",
+      "cityValue": "anhui-fuyang"
+    },
+    {
+      "province": "安徽省",
+      "city": "六安市",
+      "cityValue": "anhui-lu'an"
+    },
+    {
+      "province": "安徽省",
+      "city": "亳州市",
+      "cityValue": "anhui-bozhou"
+    },
+    {
+      "province": "安徽省",
+      "city": "池州市",
+      "cityValue": "anhui-chaohu"
+    },
+    {
+      "province": "安徽省",
+      "city": "宣城市",
+      "cityValue": "anhui-chizhou"
+    },
+    {
+      "province": "安徽省",
+      "city": "黄山市",
+      "cityValue": "anhui-"
+    },
+    {
+      "province": "福建省",
+      "city": "莆田市",
+      "cityValue": "fujian-putian"
+    },
+    {
+      "province": "福建省",
+      "city": "三明市",
+      "cityValue": "fujian-sanming"
+    },
+    {
+      "province": "福建省",
+      "city": "泉州市",
+      "cityValue": "fujian-quanzhou"
+    },
+    {
+      "province": "福建省",
+      "city": "漳州市",
+      "cityValue": "fujian-zhangzhou"
+    },
+    {
+      "province": "福建省",
+      "city": "南平市",
+      "cityValue": "fujian-nanping"
+    },
+    {
+      "province": "福建省",
+      "city": "龙岩市",
+      "cityValue": "fujian-longyan"
+    },
+    {
+      "province": "福建省",
+      "city": "宁德市",
+      "cityValue": "fujian-ningde"
+    },
+    {
+      "province": "江西省",
+      "city": "九江市",
+      "cityValue": "jiangxi-jiujiang"
+    },
+    {
+      "province": "江西省",
+      "city": "萍乡市",
+      "cityValue": "jiangxi-pingxiang"
+    },
+    {
+      "province": "江西省",
+      "city": "吉安市",
+      "cityValue": "jiangxi-ji'an"
+    },
+    {
+      "province": "江西省",
+      "city": "新余市",
+      "cityValue": "jiangxi-xinyu"
+    },
+    {
+      "province": "江西省",
+      "city": "宜春市",
+      "cityValue": "jiangxi-yichun"
+    },
+    {
+      "province": "江西省",
+      "city": "抚州市",
+      "cityValue": "jiangxi-fuzhou"
+    },
+    {
+      "province": "江西省",
+      "city": "上饶市",
+      "cityValue": "jiangxi-shangrao"
+    },
+    {
+      "province": "江西省",
+      "city": "赣州市",
+      "cityValue": "jiangxi-gannan"
+    },
+    {
+      "province": "江西省",
+      "city": "鹰潭市",
+      "cityValue": "jiangxi-yingtan"
+    },
+    {
+      "province": "江西省",
+      "city": "景德镇市",
+      "cityValue": "jiangxi-jingdezhen"
+    },
+    {
+      "province": "山东省",
+      "city": "淄博市",
+      "cityValue": "shandong-zibo"
+    },
+    {
+      "province": "山东省",
+      "city": "枣庄市",
+      "cityValue": "shandong-zaozhuang"
+    },
+    {
+      "province": "山东省",
+      "city": "东营市",
+      "cityValue": "shandong-dongying"
+    },
+    {
+      "province": "山东省",
+      "city": "烟台市",
+      "cityValue": "shandong-yantai"
+    },
+    {
+      "province": "山东省",
+      "city": "潍坊市",
+      "cityValue": "shandong-weifang"
+    },
+    {
+      "province": "山东省",
+      "city": "济宁市",
+      "cityValue": "shandong-jining"
+    },
+    {
+      "province": "山东省",
+      "city": "泰安市",
+      "cityValue": "shandong-taian"
+    },
+    {
+      "province": "山东省",
+      "city": "威海市",
+      "cityValue": "shandong-weihai"
+    },
+    {
+      "province": "山东省",
+      "city": "日照市",
+      "cityValue": "shandong-rizhao"
+    },
+    {
+      "province": "山东省",
+      "city": "聊城市",
+      "cityValue": "shandong-liaocheng"
+    },
+    {
+      "province": "山东省",
+      "city": "德州市",
+      "cityValue": "shandong-dezhou"
+    },
+    {
+      "province": "山东省",
+      "city": "滨州市",
+      "cityValue": "shandong-binzhou"
+    },
+    {
+      "province": "山东省",
+      "city": "菏泽市",
+      "cityValue": "shandong-heze"
+    },
+    {
+      "province": "山东省",
+      "city": "临沂市",
+      "cityValue": "shandong-linyi"
+    },
+    {
+      "province": "河南省",
+      "city": "开封市",
+      "cityValue": "henan-kaifeng"
+    },
+    {
+      "province": "河南省",
+      "city": "洛阳市",
+      "cityValue": "henan-luoyang"
+    },
+    {
+      "province": "河南省",
+      "city": "平顶山市",
+      "cityValue": "henan-pingdingshan"
+    },
+    {
+      "province": "河南省",
+      "city": "安阳市",
+      "cityValue": "henan-anyang"
+    },
+    {
+      "province": "河南省",
+      "city": "鹤壁市",
+      "cityValue": "henan-hebi"
+    },
+    {
+      "province": "河南省",
+      "city": "新乡市",
+      "cityValue": "henan-xinxiang"
+    },
+    {
+      "province": "河南省",
+      "city": "焦作市",
+      "cityValue": "henan-jiaozuo"
+    },
+    {
+      "province": "河南省",
+      "city": "濮阳市",
+      "cityValue": "henan-puyang"
+    },
+    {
+      "province": "河南省",
+      "city": "许昌市",
+      "cityValue": "henan-xuchang"
+    },
+    {
+      "province": "河南省",
+      "city": "漯河市",
+      "cityValue": "henan-luohe"
+    },
+    {
+      "province": "河南省",
+      "city": "三门峡市",
+      "cityValue": "henan-sanmenxia"
+    },
+    {
+      "province": "河南省",
+      "city": "南阳市",
+      "cityValue": "henan-nanyang"
+    },
+    {
+      "province": "河南省",
+      "city": "商丘市",
+      "cityValue": "henan-shangqiu"
+    },
+    {
+      "province": "河南省",
+      "city": "信阳市",
+      "cityValue": "henan-xinyang"
+    },
+    {
+      "province": "河南省",
+      "city": "周口市",
+      "cityValue": "henan-zhoukou"
+    },
+    {
+      "province": "河南省",
+      "city": "驻马店市",
+      "cityValue": "henan-zhumadian"
+    },
+    {
+      "province": "河南省",
+      "city": "济源市",
+      "cityValue": "henan-jiyuan"
+    },
+    {
+      "province": "湖北省",
+      "city": "黄石市",
+      "cityValue": "hubei-huangshi"
+    },
+    {
+      "province": "湖北省",
+      "city": "十堰市",
+      "cityValue": "hubei-shiyan"
+    },
+    {
+      "province": "湖北省",
+      "city": "宜昌市",
+      "cityValue": "hubei-yichang"
+    },
+    {
+      "province": "湖北省",
+      "city": "襄阳市",
+      "cityValue": "hubei-xiangyang"
+    },
+    {
+      "province": "湖北省",
+      "city": "鄂州市",
+      "cityValue": "hubei-ezhou"
+    },
+    {
+      "province": "湖北省",
+      "city": "荆门市",
+      "cityValue": "hubei-jingmen"
+    },
+    {
+      "province": "湖北省",
+      "city": "孝感市",
+      "cityValue": "hubei-xiaogan"
+    },
+    {
+      "province": "湖北省",
+      "city": "荆州市",
+      "cityValue": "hubei-jingzhou"
+    },
+    {
+      "province": "湖北省",
+      "city": "黄冈市",
+      "cityValue": "hubei-yangtze"
+    },
+    {
+      "province": "湖北省",
+      "city": "咸宁市",
+      "cityValue": "hubei-huanggang"
+    },
+    {
+      "province": "湖北省",
+      "city": "随州市",
+      "cityValue": "hubei-suizhou"
+    },
+    {
+      "province": "湖北省",
+      "city": "仙桃市",
+      "cityValue": "hubei-xiantao"
+    },
+    {
+      "province": "湖北省",
+      "city": "潜江市",
+      "cityValue": "hubei-qianjiang"
+    },
+    {
+      "province": "湖北省",
+      "city": "天门市",
+      "cityValue": "hubei-tianmen"
+    },
+    {
+      "province": "湖北省",
+      "city": "恩施土家族苗族自治州",
+      "cityValue": "hubei-enshi"
+    },
+    {
+      "province": "湖北省",
+      "city": "神农架林区",
+      "cityValue": "hubei-shennongjia"
+    },
+    {
+      "province": "湖南省",
+      "city": "株洲市",
+      "cityValue": "hunan-zhuzhou"
+    },
+    {
+      "province": "湖南省",
+      "city": "湘潭市",
+      "cityValue": "hunan-xiangtan"
+    },
+    {
+      "province": "湖南省",
+      "city": "衡阳市",
+      "cityValue": "hunan-hengyang"
+    },
+    {
+      "province": "湖南省",
+      "city": "邵阳市",
+      "cityValue": "hunan-shaoyang"
+    },
+    {
+      "province": "湖南省",
+      "city": "岳阳市",
+      "cityValue": "hunan-yueyang"
+    },
+    {
+      "province": "湖南省",
+      "city": "张家界市",
+      "cityValue": "hunan-zhangjiajie"
+    },
+    {
+      "province": "湖南省",
+      "city": "益阳市",
+      "cityValue": "hunan-yiayang"
+    },
+    {
+      "province": "湖南省",
+      "city": "郴州市",
+      "cityValue": "hunan-chenzhou"
+    },
+    {
+      "province": "湖南省",
+      "city": "永州市",
+      "cityValue": "hunan- Yongzhou"
+    },
+    {
+      "province": "湖南省",
+      "city": "怀化市",
+      "cityValue": "hunan-huaihua"
+    },
+    {
+      "province": "湖南省",
+      "city": "娄底市",
+      "cityValue": "hunan-loudi"
+    },
+    {
+      "province": "湖南省",
+      "city": "湘西土家族苗族自治州",
+      "cityValue": "hunan-xiangxi"
+    },
+    {
+      "province": "湖南省",
+      "city": "常德市",
+      "cityValue": "hunan-"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "柳州市",
+      "cityValue": "guangxi-liuzhou"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "桂林市",
+      "cityValue": "guangxi-guilin"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "梧州市",
+      "cityValue": "guangxi-wuzhou"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "北海市",
+      "cityValue": "guangxi-beihai"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "防城港市",
+      "cityValue": "guangxi-fangchenggang"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "钦州市",
+      "cityValue": "guangxi-qinzhou"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "贵港市",
+      "cityValue": "guangxi-guigang"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "玉林市",
+      "cityValue": "guangxi-yulin"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "百色市",
+      "cityValue": "guangxi-baise"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "贺州市",
+      "cityValue": "guangxi-hezhou"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "河池市",
+      "cityValue": "guangxi-hechi"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "来宾市",
+      "cityValue": "guangxi-laibin"
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "崇左市",
+      "cityValue": "guangxi-chongzuo"
+    },
+    {
+      "province": "海南省",
+      "city": "三沙市",
+      "cityValue": "hainan-sanjiangyuan"
+    },
+    {
+      "province": "海南省",
+      "city": "儋州市",
+      "cityValue": "hainan-dongfang"
+    },
+    {
+      "province": "海南省",
+      "city": "五指山市",
+      "cityValue": "hainan-wuzhishan"
+    },
+    {
+      "province": "海南省",
+      "city": "定安县",
+      "cityValue": "hainan-dingan"
+    },
+    {
+      "province": "海南省",
+      "city": "东方市",
+      "cityValue": "hainan-dongfang"
+    },
+    {
+      "province": "海南省",
+      "city": "澄迈县",
+      "cityValue": "hainan-chengmai"
+    },
+    {
+      "province": "海南省",
+      "city": "屯昌县",
+      "cityValue": "hainan-dongshan"
+    },
+    {
+      "province": "海南省",
+      "city": "陵水黎族自治县",
+      "cityValue": "hainan-lingshui"
+    },
+    {
+      "province": "海南省",
+      "city": "保亭黎族苗族自治县",
+      "cityValue": "hainan-baoting"
+    },
+    {
+      "province": "海南省",
+      "city": "琼中黎族苗族自治县",
+      "cityValue": "hainan-chenzhou"
+    },
+    {
+      "province": "海南省",
+      "city": "琼海市",
+      "cityValue": "hainan-qionghai"
+    },
+    {
+      "province": "海南省",
+      "city": "万宁市",
+      "cityValue": "hainan-wanning"
+    },
+    {
+      "province": "海南省",
+      "city": "文昌市",
+      "cityValue": "hainan-文昌市"
+    },
+    {
+      "province": "海南省",
+      "city": "白沙黎族自治县",
+      "cityValue": "hainan-白沙县"
+    },
+    {
+      "province": "海南省",
+      "city": "昌江黎族自治县",
+      "cityValue": "hainan-changjiang"
+    },
+    {
+      "province": "海南省",
+      "city": "临高县",
+      "cityValue": "hainan-"
+    },
+    {
+      "province": "海南省",
+      "city": "乐东黎族自治县",
+      "cityValue": "hainan-"
+    },
+    {
+      "province": "四川省",
+      "city": "自贡市",
+      "cityValue": "sichuan-zigong"
+    },
+    {
+      "province": "四川省",
+      "city": "攀枝花市",
+      "cityValue": "sichuan-panzhihua"
+    },
+    {
+      "province": "四川省",
+      "city": "泸州市",
+      "cityValue": "sichuan-luzhou"
+    },
+    {
+      "province": "四川省",
+      "city": "德阳市",
+      "cityValue": "sichuan-deyang"
+    },
+    {
+      "province": "四川省",
+      "city": "绵阳市",
+      "cityValue": "sichuan-mianyang"
+    },
+    {
+      "province": "四川省",
+      "city": "广元市",
+      "cityValue": "sichuan-guangyuan"
+    },
+    {
+      "province": "四川省",
+      "city": "内江市",
+      "cityValue": "sichuan-neijiang"
+    },
+    {
+      "province": "四川省",
+      "city": "乐山市",
+      "cityValue": "sichuan-leibo"
+    },
+    {
+      "province": "四川省",
+      "city": "南充市",
+      "cityValue": "sichuan-nanchong"
+    },
+    {
+      "province": "四川省",
+      "city": "眉山市",
+      "cityValue": "sichuan-meishan"
+    },
+    {
+      "province": "四川省",
+      "city": "宜宾市",
+      "cityValue": "sichuan-yibin"
+    },
+    {
+      "province": "四川省",
+      "city": "广安市",
+      "cityValue": "sichuan-guangan"
+    },
+    {
+      "province": "四川省",
+      "city": "达州市",
+      "cityValue": "sichuan-dazhou"
+    },
+    {
+      "province": "四川省",
+      "city": "雅安市",
+      "cityValue": "sichuan-yaan"
+    },
+    {
+      "province": "四川省",
+      "city": "巴中市",
+      "cityValue": "sichuan-bazhong"
+    },
+    {
+      "province": "四川省",
+      "city": "资阳市",
+      "cityValue": "sichuan-ziyang"
+    },
+    {
+      "province": "四川省",
+      "city": "阿坝藏族羌族自治州",
+      "cityValue": "sichuan-aba"
+    },
+    {
+      "province": "四川省",
+      "city": "甘孜藏族自治州",
+      "cityValue": "sichuan-ganzi"
+    },
+    {
+      "province": "四川省",
+      "city": "凉山彝族自治州",
+      "cityValue": "sichuan-liangshan"
+    },
+    {
+      "province": "贵州省",
+      "city": "遵义市",
+      "cityValue": "guizhou-zunyi"
+    },
+    {
+      "province": "贵州省",
+      "city": "毕节市",
+      "cityValue": "guizhou-bijie"
+    },
+    {
+      "province": "贵州省",
+      "city": "六盘水市",
+      "cityValue": "guizhou-liupanshui"
+    },
+    {
+      "province": "贵州省",
+      "city": "黔西南布依族苗族自治州",
+      "cityValue": "guizhou-qianxinan"
+    },
+    {
+      "province": "贵州省",
+      "city": "安顺市",
+      "cityValue": "guizhou-anshun"
+    },
+    {
+      "province": "贵州省",
+      "city": "黔南布依族苗族自治州",
+      "cityValue": "guizhou-qiannan"
+    },
+    {
+      "province": "贵州省",
+      "city": "铜仁市",
+      "cityValue": "guizhou-tongren"
+    },
+    {
+      "province": "贵州省",
+      "city": "黔东南苗族侗族自治州",
+      "cityValue": "guizhou-qianxi"
+    },
+    {
+      "province": "云南省",
+      "city": "曲靖市",
+      "cityValue": "yunnan-qujing"
+    },
+    {
+      "province": "云南省",
+      "city": "玉溪市",
+      "cityValue": "yunnan-yingjiang"
+    },
+    {
+      "province": "云南省",
+      "city": "保山市",
+      "cityValue": "yunnan-baoshan"
+    },
+    {
+      "province": "云南省",
+      "city": "昭通市",
+      "cityValue": "yunnan-zhaotong"
+    },
+    {
+      "province": "云南省",
+      "city": "丽江市",
+      "cityValue": "yunnan-lijiang"
+    },
+    {
+      "province": "云南省",
+      "city": "普洱市",
+      "cityValue": "yunnan-pu'er"
+    },
+    {
+      "province": "云南省",
+      "city": "临沧市",
+      "cityValue": "yunnan-lincang"
+    },
+    {
+      "province": "云南省",
+      "city": "楚雄彝族自治州",
+      "cityValue": "yunnan-chuxiong"
+    },
+    {
+      "province": "云南省",
+      "city": "红河哈尼族彝族自治州",
+      "cityValue": "yunnan-honghe"
+    },
+    {
+      "province": "云南省",
+      "city": "文山壮族苗族自治州",
+      "cityValue": "yunnan-wenshan"
+    },
+    {
+      "province": "云南省",
+      "city": "西双版纳傣族自治州",
+      "cityValue": "yunnan-wenshan"
+    },
+    {
+      "province": "云南省",
+      "city": "大理白族自治州",
+      "cityValue": "yunnan-dali"
+    },
+    {
+      "province": "云南省",
+      "city": "德宏傣族景颇族自治州",
+      "cityValue": "yunnan-dehong"
+    },
+    {
+      "province": "云南省",
+      "city": "怒江傈僳族自治州",
+      "cityValue": "yunnan-nujiang"
+    },
+    {
+      "province": "云南省",
+      "city": "迪庆藏族自治州",
+      "cityValue": "yunnan-diqing"
+    },
+    {
+      "province": "西藏自治区",
+      "city": "日喀则市",
+      "cityValue": "xizang-shigatse"
+    },
+    {
+      "province": "西藏自治区",
+      "city": "昌都市",
+      "cityValue": "xizang-changdu"
+    },
+    {
+      "province": "西藏自治区",
+      "city": "那曲市",
+      "cityValue": "xizang-naqu"
+    },
+    {
+      "province": "西藏自治区",
+      "city": "阿里地区",
+      "cityValue": "xizang-ngari"
+    },
+    {
+      "province": "西藏自治区",
+      "city": "山南市",
+      "cityValue": "xizang-shannan"
+    },
+    {
+      "province": "西藏自治区",
+      "city": "林芝市",
+      "cityValue": "xizang-linzhi"
+    },
+    {
+      "province": "陕西省",
+      "city": "铜川市",
+      "cityValue": "shaanxi-tongchuan"
+    },
+    {
+      "province": "陕西省",
+      "city": "宝鸡市",
+      "cityValue": "shaanxi-baoji"
+    },
+    {
+      "province": "陕西省",
+      "city": "咸阳市",
+      "cityValue": "shaanxi-xianyang"
+    },
+    {
+      "province": "陕西省",
+      "city": "渭南市",
+      "cityValue": "shaanxi-weinan"
+    },
+    {
+      "province": "陕西省",
+      "city": "延安市",
+      "cityValue": "shaanxi-yanan"
+    },
+    {
+      "province": "陕西省",
+      "city": "汉中市",
+      "cityValue": "shaanxi-hanzhong"
+    },
+    {
+      "province": "陕西省",
+      "city": "安康市",
+      "cityValue": "shaanxi-ankang"
+    },
+    {
+      "province": "陕西省",
+      "city": "商洛市",
+      "cityValue": "shaanxi-shangluo"
+    },
+    {
+      "province": "陕西省",
+      "city": "榆林市",
+      "cityValue": "shaanxi-yulin"
+    },
+    {
+      "province": "甘肃省",
+      "city": "酒泉市",
+      "cityValue": "gansu-jiuquan"
+    },
+    {
+      "province": "甘肃省",
+      "city": "张掖市",
+      "cityValue": "gansu-zhangye"
+    },
+    {
+      "province": "甘肃省",
+      "city": "金昌市",
+      "cityValue": "gansu-jinchang"
+    },
+    {
+      "province": "甘肃省",
+      "city": "武威市",
+      "cityValue": "gansu-wuwei"
+    },
+    {
+      "province": "甘肃省",
+      "city": "白银市",
+      "cityValue": "gansu-baiyin"
+    },
+    {
+      "province": "甘肃省",
+      "city": "庆阳市",
+      "cityValue": "gansu-qingyang"
+    },
+    {
+      "province": "甘肃省",
+      "city": "平凉市",
+      "cityValue": "gansu-pingliang"
+    },
+    {
+      "province": "甘肃省",
+      "city": "天水市",
+      "cityValue": "gansu-tianshui"
+    },
+    {
+      "province": "甘肃省",
+      "city": "陇南市",
+      "cityValue": "gansu-longnan"
+    },
+    {
+      "province": "甘肃省",
+      "city": "定西市",
+      "cityValue": "gansu-dingxi"
+    },
+    {
+      "province": "甘肃省",
+      "city": "临夏回族自治州",
+      "cityValue": "gansu-hezuo"
+    },
+    {
+      "province": "甘肃省",
+      "city": "甘南藏族自治州",
+      "cityValue": "gansu-gannan"
+    },
+    {
+      "province": "甘肃省",
+      "city": "嘉峪关市",
+      "cityValue": "gansu-"
+    },
+    {
+      "province": "青海省",
+      "city": "海南藏族自治州",
+      "cityValue": "qinghai-hainan"
+    },
+    {
+      "province": "青海省",
+      "city": "海北藏族自治州",
+      "cityValue": "qinghai-haibei"
+    },
+    {
+      "province": "青海省",
+      "city": "黄南藏族自治州",
+      "cityValue": "qinghai-huangnan"
+    },
+    {
+      "province": "青海省",
+      "city": "果洛藏族自治州",
+      "cityValue": "qinghai-guoluo"
+    },
+    {
+      "province": "青海省",
+      "city": "玉树藏族自治州",
+      "cityValue": "qinghai-yushu"
+    },
+    {
+      "province": "青海省",
+      "city": "海西蒙古族藏族自治州",
+      "cityValue": "qinghai-haixi"
+    },
+    {
+      "province": "青海省",
+      "city": "海东市",
+      "cityValue": "qinghai-"
+    },
+    {
+      "province": "宁夏回族自治区",
+      "city": "石嘴山市",
+      "cityValue": "ningxia-shizuishan"
+    },
+    {
+      "province": "宁夏回族自治区",
+      "city": "吴忠市",
+      "cityValue": "ningxia-wuzhong"
+    },
+    {
+      "province": "宁夏回族自治区",
+      "city": "固原市",
+      "cityValue": "ningxia-guangzhong"
+    },
+    {
+      "province": "宁夏回族自治区",
+      "city": "中卫市",
+      "cityValue": "ningxia-zhongwei"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "喀什地区",
+      "cityValue": "xinjiang-kashgar"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "石河子市",
+      "cityValue": "xinjiang-shihezi"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "吐鲁番市",
+      "cityValue": "xinjiang-turpan"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "哈密市",
+      "cityValue": "xinjiang-hami"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "巴音郭楞蒙古自治州",
+      "cityValue": "xinjiang-korla"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "昌吉回族自治州",
+      "cityValue": "xinjiang-kuytun"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "阿克苏地区",
+      "cityValue": "xinjiang-aksu"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "克拉玛依市",
+      "cityValue": "xinjiang-karamay"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "伊犁哈萨克自治州",
+      "cityValue": "xinjiang-kazak"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "塔城地区",
+      "cityValue": "xinjiang-tacheng"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "阿勒泰地区",
+      "cityValue": "xinjiang-altay"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "克孜勒苏柯尔克孜自治州",
+      "cityValue": "xinjiang-kizilsu"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "博尔塔拉蒙古自治州",
+      "cityValue": "xinjiang-hejing"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "和田地区",
+      "cityValue": "xinjiang-heti"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "图木舒克市",
+      "cityValue": "xinjiang-tumushuke"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "阿拉尔市",
+      "cityValue": "xinjiang-阿拉尔市"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "五家渠市",
+      "cityValue": "xinjiang-kunyu"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "双河市",
+      "cityValue": "xinjiang-shuanghe"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "铁门关市",
+      "cityValue": "xinjiang-kuqa"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "可克达拉市",
+      "cityValue": "xinjiang-huyanghe"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "昆玉市",
+      "cityValue": "xinjiang-jiashi"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "胡杨河市",
+      "cityValue": "xinjiang-tuerhong"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "新星市",
+      "cityValue": "xinjiang-tiemenguan"
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "北屯市",
+      "cityValue": "xinjiang-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "乌海市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "赤峰市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "通辽市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "鄂尔多斯市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "呼伦贝尔市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "巴彦淖尔市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "乌兰察布市",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "兴安盟",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "锡林郭勒盟",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "阿拉善盟",
+      "cityValue": "neimenggu-"
+    },
+    {
+      "province": "河北省",
+      "city": "衡水市",
+      "cityValue": "hebei-衡水"
+    },
+    {
+      "province": "河北省",
+      "city": "邢台市",
+      "cityValue": "hebei-xingtai"
+    },
+    {
+      "province": "河北省",
+      "city": "邯郸市",
+      "cityValue": "hebei-handan"
+    },
+    {
+      "province": "河北省",
+      "city": "保定市",
+      "cityValue": "hebei-baoding"
+    },
+    {
+      "province": "山西省",
+      "city": "大同市",
+      "cityValue": "shanxi-datong"
+    },
+    {
+      "province": "山西省",
+      "city": "阳泉市",
+      "cityValue": "shanxi-yangquan"
+    },
+    {
+      "province": "山西省",
+      "city": "长治市",
+      "cityValue": "shanxi-changzhi"
+    },
+    {
+      "province": "山西省",
+      "city": "晋城市",
+      "cityValue": "shanxi-jinchang"
+    },
+    {
+      "province": "山西省",
+      "city": "朔州市",
+      "cityValue": "shanxi-shuozhou"
+    },
+    {
+      "province": "山西省",
+      "city": "晋中市",
+      "cityValue": "shanxi-jinzhong"
+    },
+    {
+      "province": "山西省",
+      "city": "运城市",
+      "cityValue": "shanxi-yuncheng"
+    },
+    {
+      "province": "山西省",
+      "city": "忻州市",
+      "cityValue": "shanxi-xinzhou"
+    },
+    {
+      "province": "山西省",
+      "city": "临汾市",
+      "cityValue": "shanxi-linfen"
+    },
+    {
+      "province": "山西省",
+      "city": "吕梁市",
+      "cityValue": "shanxi-lyuliang"
+    },
+    {
+      "province": "辽宁省",
+      "city": "鞍山市",
+      "cityValue": "liaoning-anshan"
+    },
+    {
+      "province": "辽宁省",
+      "city": "抚顺市",
+      "cityValue": "liaoning-fushun"
+    },
+    {
+      "province": "辽宁省",
+      "city": "本溪市",
+      "cityValue": "liaoning-benxi"
+    },
+    {
+      "province": "辽宁省",
+      "city": "丹东市",
+      "cityValue": "liaoning-dandong"
+    },
+    {
+      "province": "辽宁省",
+      "city": "锦州市",
+      "cityValue": "liaoning-jinzhou"
+    },
+    {
+      "province": "辽宁省",
+      "city": "营口市",
+      "cityValue": "liaoning-yingkou"
+    },
+    {
+      "province": "辽宁省",
+      "city": "阜新市",
+      "cityValue": "liaoning-fuxin"
+    },
+    {
+      "province": "辽宁省",
+      "city": "辽阳市",
+      "cityValue": "liaoning-liaoyang"
+    },
+    {
+      "province": "辽宁省",
+      "city": "盘锦市",
+      "cityValue": "liaoning-panjin"
+    },
+    {
+      "province": "辽宁省",
+      "city": "铁岭市",
+      "cityValue": "liaoning-tieling"
+    },
+    {
+      "province": "辽宁省",
+      "city": "朝阳市",
+      "cityValue": "liaoning-changtu"
+    },
+    {
+      "province": "辽宁省",
+      "city": "葫芦岛市",
+      "cityValue": "liaoning-huludao"
+    },
+    {
+      "province": "吉林省",
+      "city": "吉林市",
+      "cityValue": "jilin-jilin"
+    },
+    {
+      "province": "吉林省",
+      "city": "四平市",
+      "cityValue": "jilin-siping"
+    },
+    {
+      "province": "吉林省",
+      "city": "辽源市",
+      "cityValue": "jilin-liaoyuan"
+    },
+    {
+      "province": "吉林省",
+      "city": "通化市",
+      "cityValue": "jilin-tonghua"
+    },
+    {
+      "province": "吉林省",
+      "city": "白山市",
+      "cityValue": "jilin-baishan"
+    },
+    {
+      "province": "吉林省",
+      "city": "松原市",
+      "cityValue": "jilin-songyuan"
+    },
+    {
+      "province": "吉林省",
+      "city": "白城市",
+      "cityValue": "jilin-baicheng"
+    },
+    {
+      "province": "吉林省",
+      "city": "延边朝鲜族自治州",
+      "cityValue": "jilin-yanbian"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "齐齐哈尔市",
+      "cityValue": "heilongjiang-qiqihaer"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "鸡西市",
+      "cityValue": "heilongjiang-jixi"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "鹤岗市",
+      "cityValue": "heilongjiang-hegang"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "双鸭山市",
+      "cityValue": "heilongjiang-shuangyashan"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "大兴安岭地区",
+      "cityValue": "heilongjiang-daxinganling"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "伊春市",
+      "cityValue": "heilongjiang-yingchun"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "佳木斯市",
+      "cityValue": "heilongjiang-jiamusi"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "七台河市",
+      "cityValue": "heilongjiang-qitaihe"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "牡丹江市",
+      "cityValue": "heilongjiang-mudanjiang"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "黑河市",
+      "cityValue": "heilongjiang-heihe"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "绥化市",
+      "cityValue": "heilongjiang-suihua"
+    },
+    {
+      "province": "黑龙江省",
+      "city": "大庆市",
+      "cityValue": "heilongjiang-"
+    },
+    {
+      "province": "台湾省",
+      "city": "桃园市",
+      "cityValue": "taiwan-taoyuan"
+    },
+    {
+      "province": "台湾省",
+      "city": "台南市",
+      "cityValue": "taiwan-tainan"
+    },
+    {
+      "province": "台湾省",
+      "city": "高雄市",
+      "cityValue": "taiwan-kaohsiung"
+    },
+    {
+      "province": "台湾省",
+      "city": "新北市",
+      "cityValue": "taiwan-newtaipei"
+    },
+    {
+      "province": "台湾省",
+      "city": "金门县",
+      "cityValue": "taiwan-kinmen"
+    },
+    {
+      "province": "台湾省",
+      "city": "澎湖县",
+      "cityValue": "taiwan-penghu"
+    },
+    {
+      "province": "台湾省",
+      "city": "连江县",
+      "cityValue": "taiwan- lienchiang"
+    },
+    {
+      "province": "香港特别行政区",
+      "city": "湾仔区",
+      "cityValue": "xianggang-wan chai"
+    },
+    {
+      "province": "香港特别行政区",
+      "city": "中西区",
+      "cityValue": "xianggang-central"
+    },
+    {
+      "province": "香港特别行政区",
+      "city": "尖沙咀",
+      "cityValue": "xianggang-tsim sha tsui"
+    },
+    {
+      "province": "澳门特别行政区",
+      "city": "澳门半岛",
+      "cityValue": "aomen-peninsula"
+    },
+    {
+      "province": "澳门特别行政区",
+      "city": "氹仔岛",
+      "cityValue": "aomen-taipa"
+    },
+    {
+      "province": "澳门特别行政区",
+      "city": "路环岛",
+      "cityValue": "aomen-coloane"
+    }
+  ],
+  "missingStreets": [
+    {
+      "province": "北京市",
+      "city": "东城区",
+      "cityValue": "beijing-dongcheng",
+      "districtCount": 15
+    },
+    {
+      "province": "北京市",
+      "city": "朝阳区",
+      "cityValue": "beijing-chaoyang",
+      "districtCount": 42
+    },
+    {
+      "province": "北京市",
+      "city": "海淀区",
+      "cityValue": "beijing-haidian",
+      "districtCount": 29
+    },
+    {
+      "province": "北京市",
+      "city": "丰台区",
+      "cityValue": "beijing-fengtai",
+      "districtCount": 21
+    },
+    {
+      "province": "北京市",
+      "city": "石景山区",
+      "cityValue": "beijing-shijingshan",
+      "districtCount": 9
+    },
+    {
+      "province": "北京市",
+      "city": "门头沟区",
+      "cityValue": "beijing-mentougou",
+      "districtCount": 14
+    },
+    {
+      "province": "北京市",
+      "city": "房山区",
+      "cityValue": "beijing-fangshan",
+      "districtCount": 28
+    },
+    {
+      "province": "北京市",
+      "city": "通州区",
+      "cityValue": "beijing-tongzhou",
+      "districtCount": 15
+    },
+    {
+      "province": "北京市",
+      "city": "顺义区",
+      "cityValue": "beijing-shunyi",
+      "districtCount": 26
+    },
+    {
+      "province": "北京市",
+      "city": "昌平区",
+      "cityValue": "beijing-changping",
+      "districtCount": 18
+    },
+    {
+      "province": "北京市",
+      "city": "大兴区",
+      "cityValue": "beijing-daxing",
+      "districtCount": 17
+    },
+    {
+      "province": "北京市",
+      "city": "怀柔区",
+      "cityValue": "beijing-huairou",
+      "districtCount": 16
+    },
+    {
+      "province": "北京市",
+      "city": "密云区",
+      "cityValue": "beijing-miyun",
+      "districtCount": 20
+    },
+    {
+      "province": "北京市",
+      "city": "平谷区",
+      "cityValue": "beijing-pinggu",
+      "districtCount": 18
+    },
+    {
+      "province": "上海市",
+      "city": "浦东新区",
+      "cityValue": "shanghai-pudong",
+      "districtCount": 37
+    },
+    {
+      "province": "上海市",
+      "city": "嘉定区",
+      "cityValue": "shanghai-jiading",
+      "districtCount": 10
+    },
+    {
+      "province": "上海市",
+      "city": "青浦区",
+      "cityValue": "shanghai-qingpu",
+      "districtCount": 11
+    },
+    {
+      "province": "上海市",
+      "city": "闵行区",
+      "cityValue": "shanghai-minhang",
+      "districtCount": 13
+    },
+    {
+      "province": "上海市",
+      "city": "松江区",
+      "cityValue": "shanghai-songjiang",
+      "districtCount": 17
+    },
+    {
+      "province": "上海市",
+      "city": "金山区",
+      "cityValue": "shanghai-jinshan",
+      "districtCount": 11
+    },
+    {
+      "province": "上海市",
+      "city": "长宁区",
+      "cityValue": "shanghai-changning",
+      "districtCount": 10
+    },
+    {
+      "province": "上海市",
+      "city": "普陀区",
+      "cityValue": "shanghai-putuo",
+      "districtCount": 10
+    },
+    {
+      "province": "上海市",
+      "city": "静安区",
+      "cityValue": "shanghai-jaingan",
+      "districtCount": 14
+    },
+    {
+      "province": "上海市",
+      "city": "黄浦区",
+      "cityValue": "shanghai-huangpu",
+      "districtCount": 12
+    },
+    {
+      "province": "上海市",
+      "city": "徐汇区",
+      "cityValue": "shanghai-xuhui",
+      "districtCount": 13
+    },
+    {
+      "province": "广东省",
+      "city": "东莞市",
+      "cityValue": "dongguan",
+      "districtCount": 10
+    },
+    {
+      "province": "江苏省",
+      "city": "南京市",
+      "cityValue": "nanjing",
+      "districtCount": 14
+    },
+    {
+      "province": "江苏省",
+      "city": "苏州市",
+      "cityValue": "suzhou",
+      "districtCount": 13
+    },
+    {
+      "province": "江苏省",
+      "city": "无锡市",
+      "cityValue": "jiangsu-wuxi",
+      "districtCount": 9
+    },
+    {
+      "province": "浙江省",
+      "city": "杭州市",
+      "cityValue": "hangzhou",
+      "districtCount": 15
+    },
+    {
+      "province": "浙江省",
+      "city": "宁波市",
+      "cityValue": "ningbo",
+      "districtCount": 11
+    },
+    {
+      "province": "安徽省",
+      "city": "合肥市",
+      "cityValue": "hefei",
+      "districtCount": 3
+    },
+    {
+      "province": "安徽省",
+      "city": "宿州市",
+      "cityValue": "anhui-suzhou",
+      "districtCount": 10
+    },
+    {
+      "province": "福建省",
+      "city": "福州市",
+      "cityValue": "fuzhou",
+      "districtCount": 3
+    },
+    {
+      "province": "福建省",
+      "city": "厦门市",
+      "cityValue": "xiamen",
+      "districtCount": 3
+    },
+    {
+      "province": "江西省",
+      "city": "南昌市",
+      "cityValue": "nanchang",
+      "districtCount": 3
+    },
+    {
+      "province": "山东省",
+      "city": "济南市",
+      "cityValue": "jinan",
+      "districtCount": 3
+    },
+    {
+      "province": "山东省",
+      "city": "青岛市",
+      "cityValue": "qingdao",
+      "districtCount": 3
+    },
+    {
+      "province": "河南省",
+      "city": "郑州市",
+      "cityValue": "zhengzhou",
+      "districtCount": 3
+    },
+    {
+      "province": "湖北省",
+      "city": "武汉市",
+      "cityValue": "wuhan",
+      "districtCount": 16
+    },
+    {
+      "province": "湖南省",
+      "city": "长沙市",
+      "cityValue": "changsha",
+      "districtCount": 3
+    },
+    {
+      "province": "广西壮族自治区",
+      "city": "南宁市",
+      "cityValue": "nanning",
+      "districtCount": 20
+    },
+    {
+      "province": "海南省",
+      "city": "海口市",
+      "cityValue": "haikou",
+      "districtCount": 3
+    },
+    {
+      "province": "海南省",
+      "city": "三亚市",
+      "cityValue": "sanya",
+      "districtCount": 2
+    },
+    {
+      "province": "四川省",
+      "city": "成都市",
+      "cityValue": "chengdu",
+      "districtCount": 25
+    },
+    {
+      "province": "四川省",
+      "city": "遂宁市",
+      "cityValue": "sichuan-suzhou",
+      "districtCount": 10
+    },
+    {
+      "province": "贵州省",
+      "city": "贵阳市",
+      "cityValue": "guiyang",
+      "districtCount": 3
+    },
+    {
+      "province": "云南省",
+      "city": "昆明市",
+      "cityValue": "kunming",
+      "districtCount": 3
+    },
+    {
+      "province": "西藏自治区",
+      "city": "拉萨市",
+      "cityValue": "lasa",
+      "districtCount": 2
+    },
+    {
+      "province": "陕西省",
+      "city": "西安市",
+      "cityValue": "xian",
+      "districtCount": 3
+    },
+    {
+      "province": "甘肃省",
+      "city": "兰州市",
+      "cityValue": "lanzhou",
+      "districtCount": 2
+    },
+    {
+      "province": "青海省",
+      "city": "西宁市",
+      "cityValue": "xining",
+      "districtCount": 2
+    },
+    {
+      "province": "宁夏回族自治区",
+      "city": "银川市",
+      "cityValue": "yinchuan",
+      "districtCount": 2
+    },
+    {
+      "province": "新疆维吾尔自治区",
+      "city": "乌鲁木齐市",
+      "cityValue": "urumqi",
+      "districtCount": 2
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "呼和浩特市",
+      "cityValue": "hohhot",
+      "districtCount": 2
+    },
+    {
+      "province": "内蒙古自治区",
+      "city": "包头市",
+      "cityValue": "baotou",
+      "districtCount": 2
+    },
+    {
+      "province": "河北省",
+      "city": "石家庄市",
+      "cityValue": "shijiazhuang",
+      "districtCount": 43
+    },
+    {
+      "province": "河北省",
+      "city": "唐山市",
+      "cityValue": "tangshan",
+      "districtCount": 23
+    },
+    {
+      "province": "河北省",
+      "city": "张家口市",
+      "cityValue": "hebei-zhangjiakou",
+      "districtCount": 7
+    },
+    {
+      "province": "河北省",
+      "city": "承德市",
+      "cityValue": "hebei-chengde",
+      "districtCount": 5
+    },
+    {
+      "province": "河北省",
+      "city": "秦皇岛市",
+      "cityValue": "hebei-qinhuangdao",
+      "districtCount": 5
+    },
+    {
+      "province": "河北省",
+      "city": "廊坊市",
+      "cityValue": "hebei-langfang",
+      "districtCount": 10
+    },
+    {
+      "province": "河北省",
+      "city": "沧州市",
+      "cityValue": "hebei-cangzhou",
+      "districtCount": 8
+    },
+    {
+      "province": "山西省",
+      "city": "太原市",
+      "cityValue": "taiyuan",
+      "districtCount": 2
+    },
+    {
+      "province": "辽宁省",
+      "city": "沈阳市",
+      "cityValue": "shenyang",
+      "districtCount": 2
+    },
+    {
+      "province": "辽宁省",
+      "city": "大连市",
+      "cityValue": "dalian",
+      "districtCount": 2
+    },
+    {
+      "province": "吉林省",
+      "city": "长春市",
+      "cityValue": "changchun",
+      "districtCount": 2
+    },
+    {
+      "province": "黑龙江省",
+      "city": "哈尔滨市",
+      "cityValue": "haerbin",
+      "districtCount": 2
+    },
+    {
+      "province": "台湾省",
+      "city": "台北市",
+      "cityValue": "taipei",
+      "districtCount": 2
+    },
+    {
+      "province": "台湾省",
+      "city": "台中市",
+      "cityValue": "taichung",
+      "districtCount": 2
+    }
+  ]
+}
